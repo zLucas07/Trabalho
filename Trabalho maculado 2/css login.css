@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #ff0000;
+}
+
+header h1 span {
+    color: #fff;
+}
+
+.login-container, .font-page-container, .top-fonts {
+    padding: 20px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-login button, .login-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.social-login button.facebook-login {
+    background-color: #3b5998;
+}
+
+.social-login button.google-login {
+    background-color: #db4437;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #222;
+    border: none;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+.font-page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.font-details {
+    max-width: 60%;
+}
+
+.fonts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.font-item {
+    text-align: center;
+}
+
+.font-item img {
+    width: 100%;
+    height: auto;
+}
+
+.font-item button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
